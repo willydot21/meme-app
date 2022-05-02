@@ -34,7 +34,7 @@
 
 .navbar-separator {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     width: 270px;
     margin-left: 25px;

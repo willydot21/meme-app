@@ -1,0 +1,16 @@
+
+.menu-offcanvas-menu {
+    display: block;
+}
+
+.menu-sections-menu {
+    position: fixed;
+    top: 6%;
+    left: 0%;
+    width: 22%;
+    margin: 2%;
+}
+
+.menu-sections-menu li:hover {
+    background-color: rgb(0, 30, 30);
+}

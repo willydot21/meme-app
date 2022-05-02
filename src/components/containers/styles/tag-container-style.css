@@ -1,0 +1,25 @@
+
+.meme-tags {
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+.meme-tag {
+    word-break: break-all;
+    word-wrap: break-word;
+    position: relative;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb( 105, 60, 60 );
+    transition: .2s;
+}
+
+.meme-tag:hover {
+    color: rgb( 205,  205,  205 );
+    background-color: rgb( 95, 50, 50 );
+    cursor: pointer;
+}

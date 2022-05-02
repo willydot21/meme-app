@@ -1,0 +1,62 @@
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.select-activator {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.select-activator p {
+    margin: 0;
+    padding: 0;
+}
+
+.select-activator:hover {
+    cursor: pointer;
+}
+
+.app-select-option {
+    display: none;
+    opacity: 0%;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.app-select-options img {
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 0px;
+    width: 2rem;
+    height: auto;
+}
+
+
+.app-select-option:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.select-animate {
+    display: block;
+    opacity: 100%;
+    animation: rotateMenu .3s ease-out;
+}
+
+@keyframes rotateMenu {
+    0% {
+        opacity: 0%;
+        height: 0px;
+    }
+
+    50% {
+        opacity: 100%;
+        height: 44px;
+    }
+}

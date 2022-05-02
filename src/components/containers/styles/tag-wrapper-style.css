@@ -1,0 +1,25 @@
+
+.tag-wrapper {
+    position: fixed;
+    width: 26%;
+    top: 2%;
+    right: 0%;
+    margin: 70px 0px;
+    padding-top: 30px;
+}
+
+.tag-wrapper h5 {
+    text-align: center;
+}
+
+@media ( width < 950px ) {
+    
+    .tag-wrapper {
+        position: relative;
+        padding: 0px;
+        width: 60%;
+        margin: 0px auto;
+        margin-top: 90px;
+    }
+
+}
